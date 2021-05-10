@@ -36,9 +36,27 @@
 #### 단순 선택자
 <ul>
 
-- 타입 선택자(Type Selector)_해당 태그를 가지는 모든 요소에 스타일을 적용
-    - 형태 : 타입 {...} --> p{background: red;}
-- 아이디 선택자(Id Selector)_Id로 스타일을 적용
-    - 형태 : #Id이름 {...}
+<li> 타입 선택자(Type Selector)_해당 태그를 가지는 모든 요소에 스타일을 적용
+
+- 형태 : 타입 {...} --> p{background: red;}
+<li> 아이디 선택자(Id Selector)_Id로 스타일을 적용
+
+- 형태 : #Id이름 {...}
 - 클래스 선택자(Class Selector)_클래스 이름으로 스타일 적용. 같은 클래스 이름이면 모두 적용
+
+<li> 전체 선택자(Universal Selector)_ 모든 요소에 스타일 적용.
+
+- *{...}
+
+<li> 속성 선택자(Attribute Selector)_특정 속성을 소유하는 모든 요소에 스타일 적용
+
+- 형태 : 선택자[ 속성명:"속성값" ]{...}
+
+</ul>
+
+#### 복합 선택자
+<ul>
+<li> 자식 선택자(Child Selector)_선택자A의 모든 자식중 선택자 B와 일치하는 요소 선택
+
+
 </ul>
